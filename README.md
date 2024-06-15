@@ -1,3 +1,6 @@
+# 自动化构建
+[![AppVeyor](https://img.shields.io/appveyor/build/GreenDamTan/llvm-project-ollvm.svg)](https://ci.appveyor.com/project/GreenDamTan/llvm-project-ollvm/history)
+
 # The LLVM Compiler Infrastructure
 
 Welcome to the LLVM project!
