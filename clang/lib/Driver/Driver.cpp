@@ -1982,6 +1982,7 @@ void Driver::PrintVersion(const Compilation &C, raw_ostream &OS) const {
     OS << getClangFullVersion() << '\n';
   }
   const ToolChain &TC = C.getDefaultToolChain();
+  OS << "Build: " << "https://github.com/GreenDamTan/llvm-project_ollvm" << '\n';
   OS << "Target: " << TC.getTripleString() << '\n';
 
   // Print the threading model.
